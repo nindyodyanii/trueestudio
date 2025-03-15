@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trueestudio</title>
+
+    <!--SwiperJS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/Frame 118.svg" type="image/x-icon">
+
+    <!--font awesome(for icons)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <a href="#" class="logo">
+            <img src="image/TS. (1).png" alt="">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="https://www.behance.net/trueestudioo" target="_blank">About us</a></li>
+        </ul>
+
+        <div class="menu-right">
+            <a href="https://calendly.com/hellotrueestudio/discussion-with-trueestudio" target="_black" class="menu-btn">
+                <span>Book a Free Consultation</span>
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="h-text">
+                <a href="#" class="hero-in">
+                    <div class="imagehome"><img src="image/Frame 11 (3).png" alt=""></div>
+                    <p>50K+ Satisfied Customer</p>
+                </a>
+                <h1>We create website using <br> wordpress from scratch</h1>
+                <p>We are a studio that focuses on building wordpress websites from design to wordpress development. Help find <br> solutions that are intuitive and in accordance with client business goals  </p>
+            </div>
+            <div class="buttonhome">
+                <a href="mailto:hellotrueestudio@gmail.com" target="_black">
+                    <span>Get in touch</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about">
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>About Us</p>
+        </div>
+        <div class="paragraphabout">
+            <h1>Welcome to trueestudio. Focusing on wordpress <br> development.<span> Based in Riau and Jakarta. <br> We are able to create website designs that can be <br> useful for realizing client dreams </span></h1>
+        </div>
+        <div class="yearsexperience">
+            <div class="clientabout">
+                <div class="client1">
+                    <h3>5+</h3>
+                    <p>Years of <br> experience</p>
+                </div>
+
+                <div class="client1">
+                    <h3>45+</h3>
+                    <p>Clients already <br> trust</p>
+                </div>
+
+                <div class="client1">
+                    <h3>INA</h3>
+                    <p>Based in Riau & <br> Jakarta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- whatsapp widget -->
+    <div class="WA_Chat_Widget" data-position="bottom-right">
+        <div class="WA_ChatBox">
+            <div class="WA_ChatBox_Header">
+                <div class="avatarBox">
+                    <img src="image/Frame 8721.png" alt="Chat Avatar">
+                </div>
+                <div class="infoBox">
+                    <h4 class="name">Nindy Odyani</h4>
+                    <span class="answer_time">Typically replies within a day</span>
+                </div>
+                <button class="WA_Close" onclick="hideChatbox()"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+                    </svg></button>
+            </div>
+            <div class="WA_ChatBox_Body">
+                <div class="message">
+                    <h4 class="username">Nindy odyani</h4>
+                    <div class="message_content">
+                        <p>Hey There, How can I help you?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="WA_ChatBox_Footer">
+                <a class="btn btn-whatsapp" href="http://wa.me/+628118912525" target="_blank">Start Chat</a>
+            </div>
+        </div>
+        <div class="WA_FloatingButton" onclick="toggleChatbox()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#4FCE5D" viewBox="0 0 90 90">
+                <path
+                    d="M90 43.841c0 24.213-19.779 43.841-44.182 43.841a44.256 44.256 0 01-21.357-5.455L0 90l7.975-23.522a43.38 43.38 0 01-6.34-22.637C1.635 19.628 21.416 0 45.818 0 70.223 0 90 19.628 90 43.841zM45.818 6.982c-20.484 0-37.146 16.535-37.146 36.859 0 8.065 2.629 15.534 7.076 21.61L11.107 79.14l14.275-4.537A37.122 37.122 0 0045.819 80.7c20.481 0 37.146-16.533 37.146-36.857S66.301 6.982 45.818 6.982zm22.311 46.956c-.273-.447-.994-.717-2.076-1.254-1.084-.537-6.41-3.138-7.4-3.495-.993-.358-1.717-.538-2.438.537-.721 1.076-2.797 3.495-3.43 4.212-.632.719-1.263.809-2.347.271-1.082-.537-4.571-1.673-8.708-5.333-3.219-2.848-5.393-6.364-6.025-7.441-.631-1.075-.066-1.656.475-2.191.488-.482 1.084-1.255 1.625-1.882.543-.628.723-1.075 1.082-1.793.363-.717.182-1.344-.09-1.883-.27-.537-2.438-5.825-3.34-7.977-.902-2.15-1.803-1.792-2.436-1.792-.631 0-1.354-.09-2.076-.09s-1.896.269-2.889 1.344c-.992 1.076-3.789 3.676-3.789 8.963 0 5.288 3.879 10.397 4.422 11.113.541.716 7.49 11.92 18.5 16.223C58.2 65.771 58.2 64.336 60.186 64.156c1.984-.179 6.406-2.599 7.312-5.107.9-2.512.9-4.663.631-5.111z">
+                </path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- whatsapp -->
+
+    <!-- service -->
+    <section class="services" id="services">
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>Services</p>
+        </div>
+        <div class="paragraphservice">
+            <h2>It's not about limitations, but this is something about what we focus on</h2>
+        </div>
+
+        <div class="boxcta">
+            <div class="customer1">
+                <div class="h11">
+                    <h3>Custom WordPress Sites</h3>
+                    <a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_blank"><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <p>Create a stunning online presence with the best custom WordPress web design <br> services. Our team of experts will bring your vision to life with custom web design, <br> smooth functionality, and user-friendly interface. </p>
+            </div>
+
+            <div class="customer1">
+                <div class="h11">
+                    <h3>Website Rebuild</h3>
+                    <a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_blank"><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <p>We can enhance your existing site using Elementor, utilizing its advanced features. It will empower you to manage and customize your site with ease through its smooth <br> drag-and-drop functionality. </p>
+            </div>
+
+            <div class="customer1">
+                <div class="h11">
+                    <h3>Figma to WordPress Conversion</h3>
+                    <a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_blank"><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <p>We are a team of expert WordPress developers who can turn your Figma design <br> into a great performing WordPress website.  </p>
+            </div>
+
+            <div class="customer1">
+                <div class="h11">
+                    <h3>Web Design & Development</h3>
+                    <a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_blank"><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <p>Tailored & beautiful design, layout, coding, content creation, and functionality built to meet the specific needs and goals of your business. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="value">
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>Our Value</p>
+        </div>
+        <h2>Why Trueestudio?</h2>
+        <div class="valuebox">
+            <div class="valueboxbox">
+                <div class="unlimite1">
+                    <img src="image/value1.png" alt="">
+                    <h3>Unlimited Revisi</h3>
+                </div>
+                <p>Good Wordpress work will appear when it has reached its  final revision. a solid plan is obtained from the results of a deep review as we will proceed to work on your project. we will be present as your best listeners to ensure that the design is in the best state. we are happy to provide unlimited review services to achieve the best results with you until the finish.</p>
+            </div>
+
+            <div class="valueboxbox">
+                <div class="unlimite1">
+                    <img src="image/value2.png" alt="">
+                    <h3>Free 24/7 hours support</h3>
+                </div>
+                <p>We are ready to be your partner for consultation regarding wordpress every day via online meet or chat. Coordinating every day will be more effective than periodic meetings for hours. Decisions will be made through coordination with formal agreements. We are very honored if you contact us if there is a decision in the field that must be changed. </p>
+            </div>
+
+            <div class="valueboxbox">
+                <div class="unlimite1">
+                    <img src="image/value3.png" alt="">
+                    <h3>Work with an perspective</h3>
+                </div>
+                <p>We started working with perspective clients. we really hope that the discussion space becomes more participatory so that you or we can give our opinions openly. we really need your input, show us what you like and don't like.</p>
+            </div>
+
+            <div class="valueboxbox">
+                <div class="unlimite1">
+                    <img src="image/value4.png" alt="">
+                    <h3>WordPress</h3>
+                </div>
+                <p>Without using templates from the beginning of the work. We guarantee, all projects will be created from scratch. Not using templates from anywhere</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="works" id="work"> 
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>Our Work</p>
+        </div>
+        <div class="h2">
+            <h3>See the results of our work across industries</h3>
+            <div class="menu-btn">
+                <a href="https://www.behance.net/trueestudioo" target="_black">
+                    <span>More works </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <div class="row">
+                <a href="https://www.behance.net/gallery/216599095/Portfolio-Trueestudio" target="_blank"><img src="image/work1.png"></a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="image/kulinerlogo1.png" alt="">
+                    </div>
+                    <div class="row-icon">
+                        <h3>Foodly</h3>
+                        <h2>Breads & pastries website</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="https://www.behance.net/gallery/216599095/Portfolio-Trueestudio" target="_blank"><img src="image/MacBook Pro 14_ - 2.png"></a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="image/Salinan work2.png" alt="">
+                    </div>
+                    <div class="row-icon">
+                        <h3>EduCoursesin</h3>
+                        <h2>Education website courses</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="https://www.behance.net/gallery/216599095/Portfolio-Trueestudio" target="_blank"><img src="image/work3 (1).png"></a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="image/logo1.png" alt="">
+                    </div>
+                    <div class="row-icon">
+                        <h3>Crytomus</h3>
+                        <h2>E-learning platform website</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="https://www.behance.net/gallery/216599095/Portfolio-Trueestudio" target="_blank"><img src="image/Salinan work6.png"></a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="image/Salinan logo1.png" alt="">
+                    </div>
+                    <div class="row-icon">
+                        <h3>Realestate</h3>
+                        <h2>Real state rental booking website</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="https://www.behance.net/gallery/216599095/Portfolio-Trueestudio" target="_blank"><img src="image/work7.png"></a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="image/Salinan logo1 2.png" alt="">
+                    </div>
+                    <div class="row-icon">
+                        <h3>ICRE</h3>
+                        <h2>Ice cream store e-commerce website</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="https://www.behance.net/gallery/216599095/Portfolio-Trueestudio" target="_blank"><img src="image/work6.png"></a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <img src="image/Salinan logo1 3.png" alt="">
+                    </div>
+                    <div class="row-icon">
+                        <h3>Inhealth</h3>
+                        <h2>Healtcare website</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>Process</p>
+        </div>
+        <h3>Website Design process that <br> covers your unique business goals</h3>
+        <div class="processs">
+            <div class="processboxbox">
+                <div class="unlimite12">
+                    <h2>1. Initial Consultation</h2>
+                </div>
+                <p>To discuss your project in more detail. Team trueestudio provides a discussion service through online meetings that will help you gather additional information about your  project and clarify things that are not yet clear.</p>
+            </div>
+
+            <div class="processboxbox">
+                <div class="unlimite12">
+                    <h2>2. Proposal & price quotation</h2>
+                </div>
+                <p>Based on your project needs, trueestudio will prepare a proposal and price quote. The proposal will contain the scope of work, timeline, and associated costs.</p>
+            </div>
+
+            <div class="processboxbox">
+                <div class="unlimite12">
+                    <h2>3. Creation of initial design / prototype</h2>
+                </div>
+                <p>We will create an initial design / prototype of the appearance and flow based on the project details that you have described earlier.</p>
+            </div>
+
+            <div class="processboxbox">
+                <div class="unlimite12">
+                    <h2>4. Implementation of work</h2>
+                </div>
+                <p>After approval and full payment, Trueestudio will begin work on your project. And we will update the progress of your project every week.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>Customer Success</p>
+        </div>
+        <div class="wrapper">
+          <div class="section-header">
+            <h2 class="title">What our clients say</h2>
+          </div>
+  
+          <div class="testimonial-content">
+            <div class="swiper slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial-item">
+                  <div class="info">
+                    <img src="image/img3.jpg" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Irina G.</h3>
+                      <span class="job">Founder and Owner Small Business</span>
+                    </div>
+                  </div>
+                  <p>
+                    "Trueestudio was fast and efficient without sacrificing quality. Their team of designers and developers brought our vision to life and we are thankful for their expertise."
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial-item">
+                  <div class="info">
+                    <img src="image/img4.jpg" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Syed Balkhi</h3>
+                      <span class="job">Director of Marketing</span>
+                    </div>
+                  </div>
+                  <p>
+                    "Trueestudio is a rock solid team. They combine an innate instinct for good design with a keen understanding for real world business challenges."
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial-item">
+                  <div class="info">
+                    <img src="image/harps-joseph-tAvpDE7fXgY-unsplash.jpg" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Andrew Norcross</h3>
+                      <span class="job">Lone Rock Point</span>
+                    </div>
+                  </div>
+                  <p>
+                    "Thankful for the Trueestudio team for helping us take the Volusion brand to the next level. Couldn't have done it without them."
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial-item">
+                  <div class="info">
+                    <img src="image/where-is-pykh-_3vfugHP3Ro-unsplash.jpg" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Mihail Stoychev</h3>
+                      <span class="job">CEO of NitroPack</span>
+                    </div>
+                  </div>
+                  <p>
+                    “Fixel consistently delivers. They work as an extension of our team, listening and challenging, and maintaining an ongoing relationship.”
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial-item">
+                  <div class="info">
+                    <img src="image/shipman-northcutt-sgZX15Da8YE-unsplash.jpg" alt="" />
+                    <div class="name-job">
+                      <h3 class="name">Jon Reed</h3>
+                      <span class="job">Co-Founder, diginomica</span>
+                    </div>
+                  </div>
+                  <p>
+                    "They're very responsive and go above and beyond to meet our needs. We continue working with them, which is the best sign of our satisfaction."
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="textabouthome">
+            <!-- <i class='bx bxs-down-arrow-circle'></i> -->
+            <img src="image/arrow-down-circle.png" alt="">
+            <p>Clients & Partners </p>
+        </div>
+        <div class="center-left">
+            <h2>Our studio is trusted by these tech brands</h2>
+        </div>
+
+        <div class="feature-content">
+            <div class="f-img">
+                <img src="image/f1.png" alt="">
+            </div>
+
+            <div class="f-img">
+                <img src="image/f2.png" alt="">
+            </div>
+
+            <div class="f-img">
+                <img src="image/f3.png" alt="">
+            </div>
+
+            <div class="f-img">
+                <img src="image/f4.png" alt="">
+            </div>
+
+            <div class="f-img">
+                <img src="image/f5.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="ctacustomer">
+        <div class="cta-content">
+            <h3>Have a project in mind?</h3>
+            <h2>Let's get to work</h2>
+            <a href="mailto:hellotrueestudio@gmail.com" target="_black" class="cta-btncustomer">Start a project?</a>
+        </div>
+    </section>
+
+    <section class="date1">
+        <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/hellotrueestudio/discussion-with-trueestudio" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end --> 
+    </section>
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="contact-content">
+            <img src="image/21.svg" alt="">
+            <p>We create website using wordpress <br> for business or personal from <br> scratch. Based in Riau and Jakarta, <br> Indonesia.</p>
+            <div class="line">
+                <a href="mailto:hellotrueestudio@gmail.com" target="_black">
+                    <h3>DROP US A LINE</h3>
+                    <span>hellotrueestudio@gmail.com</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-content">
+            <h4>Our service</h4>
+            <li><a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_black"> Custom WordPress Sites</a></li>
+            <li><a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_black">Website Rebuild</a></li>
+            <li><a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_black">Figma to WordPress Conversion Service</a></li>
+            <li><a href="https://www.behance.net/gallery/216655545/Service-Trueestudio" target="_black">Web Design & Development</a></li>
+        </div>
+
+        <div class="contact-content">
+            <h4>Products</h4>
+            <li><a href="https://ui8.net/users/67ade08d70d0980032e093b3" target="_black">UI8</a></li>
+            <li><a href="https://trueestudio.gumroad.com/" target="_black">Gumroad</a></li>
+            <li><a href="https://creativemarket.com/users/trueestduio" target="_black">Creative market</a></li>
+            <!-- <li><a href="#">WooCommerce</a></li> -->
+        </div>
+
+        <div class="contact-content">
+            <h4>Follow us</h4>
+            <li><a href="https://www.behance.net/trueestudioo" target="_black">Behance</a></li>
+            <li><a href="https://dribbble.com/trueestudio" target="_black">Dribbble</a></li>
+            <li><a href="https://www.linkedin.com/company/trueestudio" target="_black">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/trueestudio/"target="_black"> Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61572161543293"target="_black"> Facebook</a></li>
+            <li><a href="https://x.com/trueestudio_" target="_black">X</a></li>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- js -->
+    <script src="script.js"></script>
+</body>
+</html>
