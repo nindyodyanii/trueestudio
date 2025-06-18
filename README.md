@@ -34,8 +34,7 @@ The goal of this project is to present the services and portfolio of the studio 
 
 ## 📸 Screenshots
 
-![Screenshot](https://www.trueestudio.com/assets/images/preview.jpg)  
-*(You can add screenshot from the website or local screen capture)*
+https://www.trueestudio.com
 
 ---
 
