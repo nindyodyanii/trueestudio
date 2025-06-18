@@ -32,32 +32,6 @@ The goal of this project is to present the services and portfolio of the studio 
 
 ---
 
-## 📸 Screenshots
-
-https://www.trueestudio.com
-
----
-
-## 📦 Getting Started
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/nindyodyanii/trueestudio.git
-Open index.html in your browser
-or open with Live Server (VSCode extension)
-
-📂 Project Structure
-pgsql
-Copy
-Edit
-trueestudio/
-├── assets/
-│   ├── css/
-│   ├── images/
-│   └── js/
-├── index.html
-└── README.md
 🤝 Contributing
 If you have any suggestions or want to collaborate, feel free to open an issue or pull request.
 
