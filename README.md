@@ -38,7 +38,14 @@ If you have any suggestions or want to collaborate, feel free to open an issue o
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-✨ Author
+
+---
+
+✨ Author 
+
+
+---
+
 Nindy Odyanii
 GitHub: https://github.com/nindyodyanii
 Website: https://www.trueestudio.com
