@@ -43,9 +43,6 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 ✨ Author 
 
-
----
-
 Nindy Odyanii
 GitHub: https://github.com/nindyodyanii
 Website: https://www.trueestudio.com
